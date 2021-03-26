@@ -63,4 +63,4 @@ The properties will differ based on the resource and the type of action being pe
 
 [link to DO_DOMAIN]: ../docs/DOMAIN.md
 [link to DO_DROPLET]: ../docs/DROPLET.md
-[link to DO_DNS_RECORD]: https://google.com
+[link to DO_DNS_RECORD]: ../docs/DNS.md

@@ -15,11 +15,17 @@ Provision cloud resources from Digital Ocean using just a simple yaml file.
 
 1. In order to interact with the DigitalOcean API, the application must be authenticated. This is done using an Personal Access Token (PAO) from Digital Ocean
 2. You can generate an PAO token by visiting the [Apps & API](https://cloud.digitalocean.com/settings/applications) section of the DigitalOcean control panel for your account.
-3. Copy the generated token and set it as the environment variable.**The variable name should be set exactly as `DO_PAO`**
+3. Copy the generated token and set it as the environment variable.**The variable name should be set exactly as** `DO_PAO`  
+
+
 For MacOS and Linux Distributions:
-`export DO_PAO=Your_Digital_Ocean_PAO`
+`export DO_PAO=Your_Digital_Ocean_PAO`  
+
+
 For Windows
-`set DO_PAO=Your_Digital_Ocean_PAO`
+`set DO_PAO=Your_Digital_Ocean_PAO`  
+
+
 **Note: `set` only sets the envs for the current instance of the terminal**
 
 ### Running the application
@@ -41,7 +47,7 @@ For Windows
 
 ### Yaml file for parsing
 
-An [example yaml file](../examples/example1.yml) has been included for reference. It creates a single droplet with a basic nginx server and links it to the domain `example-domain.com`. After running the application with the yaml file, you should be able to see a simple web page at `example-domain.com`
+An example yaml file has been included in the examples directory for reference. It creates a single droplet with a basic nginx server and links it to the domain `example-domain.com`. After running the application with the yaml file, you should be able to see a simple web page at `example-domain.com`
 
 **Replace `example-domain.com` with your own domain**
 
