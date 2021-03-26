@@ -1,0 +1,7 @@
+.venv
+.vscode
+apis/__pycache__
+file_parsing/__pycache__
+PAO.txt
+*.tlstate
+tellurian.yml
